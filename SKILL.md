@@ -50,7 +50,6 @@ python scripts/extract_words.py \
 - **From Presets**:
   - `presets/style.json`: Default neon green highlight (`#00FF00`), Arial Black, all-caps, 4 words/line.
   - `presets/yellow.json`: Yellow highlight (`#FFFF00`), Arial Black, all-caps.
-  - `presets/chinese.json`: PingFang SC font, 8 words/line, lowercase.
 
 To adjust appearance manually, see [Style Guide](./references/style-guide.md).
 
@@ -85,7 +84,6 @@ scripts/render.sh input.mp4 captions.ass output.mp4
 - Presets:
   - [presets/style.json](./presets/style.json)
   - [presets/yellow.json](./presets/yellow.json)
-  - [presets/chinese.json](./presets/chinese.json)
 - Scripts:
   - [scripts/extract_words.py](./scripts/extract_words.py)
   - [scripts/match_style_from_image.py](./scripts/match_style_from_image.py)

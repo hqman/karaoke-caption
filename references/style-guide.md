@@ -8,7 +8,7 @@ This guide explains each parameter in `style.json` and how to adjust captions ba
 
 | Parameter | Type | Default | Description |
 |---|---|---|---|
-| `font` | string | `"Arial Black"` | Font name. Use `"Arial Black"` for English, `"PingFang SC"` or `"Heiti SC"` for Chinese. |
+| `font` | string | `"Arial Black"` | Font name. |
 | `font_size` | number | `64` | Subtitle font size (scaled against `play_res_y`). |
 | `bold` | number | `1` | `1` for bold, `0` for regular weight. |
 | `primary_color` | string | `"&H00FFFFFF"` | Normal word color (White). |
@@ -55,4 +55,3 @@ ASS colors use **`&HAABBGGRR`** where:
 - **"Change the highlight to yellow"**: Change `highlight_color` to `"&H0000FFFF"`.
 - **"Show more words at a time / The phrases are too short"**: Increase `max_words_per_line` (e.g. from `4` to `6` or `7`).
 - **"Show only 2-3 words at a time for a faster pace"**: Decrease `max_words_per_line` to `3` or `2`.
-- **"Use a Chinese-language video"**: Switch to preset `presets/chinese.json` (`font: "PingFang SC"`, `uppercase: false`, `max_words_per_line: 8`).

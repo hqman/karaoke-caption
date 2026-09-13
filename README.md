@@ -53,7 +53,6 @@ scripts/render.sh frame input.mp4 captions.ass preview_frame.png 4.5
 |---|---|---|
 | `presets/style.json` | neon green | Arial Black |
 | `presets/yellow.json` | yellow | Arial Black |
-| `presets/chinese.json` | neon green | PingFang SC |
 
 See [references/style-guide.md](references/style-guide.md) for every style field.
 
